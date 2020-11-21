@@ -1,10 +1,10 @@
 /*
- * @Description: 
+ * @Description: 将0全部移动到最后
  * @Version: 2.0
  * @Autor: zhangyan
  * @Date: 2020-11-18 22:43:46
  * @LastEditors: zhangyan
- * @LastEditTime: 2020-11-19 11:16:51
+ * @LastEditTime: 2020-11-21 11:22:33
  */
 // 时间复杂度 O(n*n)
 function moveZeros (nums) {
