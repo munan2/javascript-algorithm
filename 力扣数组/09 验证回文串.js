@@ -12,9 +12,31 @@
  * @Autor: zhangyan
  * @Date: 2020-12-02 00:40:24
  * @LastEditors: zhangyan
- * @LastEditTime: 2020-12-02 00:41:24
+ * @LastEditTime: 2020-12-02 10:55:29
  */
-
 var isPalindrome = function(s) {
-
+  const sp = /[0-9a-zA-Z]+/g
+  let length = s.length
+  for (let i=0,j=length-1; i<=j;) {
+    console.log(s[i].toLowerCase(), i, s[j].toLowerCase(), j)
+    if (s[i].toLowerCase() !== s[j].toLowerCase()) {
+      if (!s[i].match(sp)) {
+        i++
+      } else if (!s[j].match(sp)) {
+        console.log('s[j]', s[j])
+        j--
+      } else {
+        return false
+      }
+    } else {
+      i++
+      j--
+    }
+  }
+  return true
 };
+
+const s = 'hello lleh'
+const t = "ab_a"
+const res = isPalindrome(t)
+console.log('res', res)
