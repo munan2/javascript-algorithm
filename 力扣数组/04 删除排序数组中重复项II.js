@@ -1,4 +1,5 @@
 /*
+ * https://leetcode-cn.com/leetbook/read/all-about-array/x9nivs/
  * @Description: 
   给定一个增序排列数组 nums ，你需要在 原地 删除重复出现的元素，
   使得每个元素最多出现两次，返回移除后数组的新长度。
@@ -23,7 +24,7 @@
  * @Autor: zhangyan
  * @Date: 2020-11-21 13:08:06
  * @LastEditors: zhangyan
- * @LastEditTime: 2020-11-21 13:41:04
+ * @LastEditTime: 2020-12-04 00:02:59
  */
 
 var removeDuplicates = function(nums) {

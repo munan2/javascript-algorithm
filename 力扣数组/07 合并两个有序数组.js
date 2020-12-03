@@ -1,4 +1,5 @@
 /*
+ * https://leetcode-cn.com/leetbook/read/all-about-array/x9lhe7/
  * @Description: 给你两个有序整数数组 nums1 和 nums2，请你将 nums2 合并到 nums1 中，使 nums1 成为一个有序数组。
  说明：
   初始化 nums1 和 nums2 的元素数量分别为 m 和 n 。
@@ -14,7 +15,7 @@
  * @Autor: zhangyan
  * @Date: 2020-11-30 23:18:28
  * @LastEditors: zhangyan
- * @LastEditTime: 2020-11-30 23:35:25
+ * @LastEditTime: 2020-12-04 00:03:36
  */
 var merge = function(nums1, m, nums2, n) {
   let i = m - 1

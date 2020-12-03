@@ -1,4 +1,5 @@
 /*
+ * https://leetcode-cn.com/leetbook/read/all-about-array/x9a60t/
  * @Description: 删除排序数组中的重复项
  * 给定一个排序数组，你需要在 原地 删除重复出现的元素，
  * 使得每个元素只出现一次，返回移除后数组的新长度。
@@ -19,7 +20,7 @@
  * @Autor: zhangyan
  * @Date: 2020-11-21 11:35:56
  * @LastEditors: zhangyan
- * @LastEditTime: 2020-11-21 13:03:59
+ * @LastEditTime: 2020-12-04 00:02:43
  */
 var removeDuplicates = function(nums) {
   let j = 0

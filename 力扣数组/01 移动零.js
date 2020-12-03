@@ -1,10 +1,11 @@
 /*
+ * https://leetcode-cn.com/leetbook/read/all-about-array/x9rh8e/
  * @Description: 将0全部移动到最后
  * @Version: 2.0
  * @Autor: zhangyan
  * @Date: 2020-11-18 22:43:46
  * @LastEditors: zhangyan
- * @LastEditTime: 2020-11-21 11:22:33
+ * @LastEditTime: 2020-12-04 00:02:23
  */
 // 时间复杂度 O(n*n)
 function moveZeros (nums) {

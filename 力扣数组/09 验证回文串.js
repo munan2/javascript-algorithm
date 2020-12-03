@@ -1,4 +1,5 @@
 /*
+ * https://leetcode-cn.com/leetbook/read/all-about-array/x9tqjc/
  * @Description: 给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。
  说明：本题中，我们将空字符串定义为有效的回文串。
 
@@ -12,7 +13,7 @@
  * @Autor: zhangyan
  * @Date: 2020-12-02 00:40:24
  * @LastEditors: zhangyan
- * @LastEditTime: 2020-12-02 10:55:29
+ * @LastEditTime: 2020-12-04 00:03:56
  */
 var isPalindrome = function(s) {
   const sp = /[0-9a-zA-Z]+/g
